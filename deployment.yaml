@@ -1,8 +1,4 @@
 
-kind: Deployment
-metadata:
-  name: myjavaapp-deployment
-spec:
   replicas: 3
   selector:
     matchLabels:
